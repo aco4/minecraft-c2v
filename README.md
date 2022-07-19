@@ -4,13 +4,17 @@ minecraft-c2v is a Minecraft datapack namespace generator script, written in Pyt
 # What is c2v?
 This namespace ("c2v", alias for Change to Variant) is used to replace a block (e.g. cobblestone_stair) with its variant (e.g. mossy_cobblestone_stair) whilst preserving blockstates. Since c2v is a namespace, it is easily integrated into datapacks.
 
+### Requirements
+
 Requires load function: NO
 
 Requires tick function: NO
 
+### Usage
 1. Run the execution function at the block
+```
 execute positioned ~ ~ ~ run function c2v:exe
-
+```
 2. The block is converted into one of its variants
 
 
