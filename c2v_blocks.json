@@ -1,0 +1,171 @@
+[
+  {
+    "name": "cobblestone",
+    "variants": [
+      "mossy_cobblestone"
+    ]
+  },
+  {
+    "name": "cobblestone_slab",
+    "blockstates": {
+      "type": [
+        "bottom",
+        "top"
+      ]
+    },
+    "variants": [
+      "mossy_cobblestone_slab"
+    ]
+  },
+  {
+    "name": "cobblestone_stairs",
+    "blockstates": {
+      "facing": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "variants": [
+      "mossy_cobblestone_stairs"
+    ]
+  },
+  {
+    "name": "cobblestone_wall",
+    "blockstates": {
+      "north": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "south": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "east": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "west": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "up": [
+        "false",
+        "true"
+      ]
+    },
+    "variants": [
+      "mossy_cobblestone_wall"
+    ]
+  },
+  {
+    "name": "stone_bricks",
+    "variants": [
+      "mossy_stone_bricks",
+      "cracked_stone_bricks"
+    ]
+  },
+  {
+    "name": "stone_brick_slab",
+    "blockstates": {
+      "type": [
+        "bottom",
+        "top"
+      ]
+    },
+    "variants": [
+      "mossy_stone_brick_slab"
+    ]
+  },
+  {
+    "name": "stone_brick_stairs",
+    "blockstates": {
+      "facing": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "variants": [
+      "mossy_stone_brick_stairs"
+    ]
+  },
+  {
+    "name": "stone_brick_wall",
+    "blockstates": {
+      "north": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "south": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "east": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "west": [
+        "low",
+        "none",
+        "tall"
+      ],
+      "up": [
+        "false",
+        "true"
+      ]
+    },
+    "variants": [
+      "mossy_stone_brick_wall"
+    ]
+  },
+  {
+    "name": "polished_blackstone_bricks",
+    "variants": [
+      "cracked_polished_blackstone_bricks"
+    ]
+  },
+  {
+    "name": "deepslate_bricks",
+    "variants": [
+      "cracked_deepslate_bricks"
+    ]
+  },
+  {
+    "name": "deepslate_tiles",
+    "variants": [
+      "cracked_deepslate_tiles"
+    ]
+  }
+]
