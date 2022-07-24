@@ -2,15 +2,17 @@
 minecraft-c2v is a Minecraft datapack namespace generator script, written in Python. It utilizes a recursive function to automatically create a directory tree, containing 270+ files and 90+ folders.
 
 # What is c2v?
-This namespace ("c2v", alias for Change to Variant) is used to replace a block (e.g. cobblestone_stair) with its variant (e.g. mossy_cobblestone_stair) whilst preserving blockstates. Since c2v is a namespace, it is easily integrated into datapacks.
+"c2v", alias for Change to Variant, is a datapack namespace used to replace a block (e.g. cobblestone_stair) with its variant (e.g. mossy_cobblestone_stair) whilst preserving blockstates.
 
-### Requirements
+Since c2v is a namespace, it is easily integrated into datapacks.
+
+# Requirements
 
 Requires load function: NO
 
 Requires tick function: NO
 
-### Usage
+# Usage
 1. Run the execution function at the block
 ```
 execute positioned ~ ~ ~ run function c2v:exe
